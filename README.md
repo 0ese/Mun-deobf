@@ -2,15 +2,12 @@
 This project aims to deobfuscate Lua scripts obfuscated using **MoonSec V3**. The deobfuscation process produces a **Lua 5.1 bytecode file**, which you can then decompile with your favorite Lua decompiler.  Optionally, the tool can also generate a **disassembly** of the bytecode.
 
 ## Usage
-### Installation
-1. Clone the repository:
+### Installation & Building
+To install and build run the following commands.
 ```bash
 git clone https://github.com/tupsutumppu/MoonsecDeobfuscator.git
 cd MoonsecDeobfuscator
-```
-2. Build the project:
-```bash
-dotnet build
+dotnet build -c Release
 ```
 ### Command-Line
 ```plaintext
